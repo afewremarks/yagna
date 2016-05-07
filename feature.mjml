@@ -2,13 +2,13 @@
   <mj-body>
     <mj-container background-color="#ECECEC">
       <!-- Header -->
-    <mj-section padding-bottom="0" background-color="white">
+    <mj-section padding-bottom="0" background-color="#4D487C">
       <mj-column width="100%">
-        <mj-image src="" width="50px"/>
+        <mj-image src="https://raw.githubusercontent.com/afewremarks/yagna/master/assets/yagna-logo-white.png" width="100px"/>
           <mj-divider
                 horizontal-spacing="0"
                 vertical-spacing="0"
-                padding-top="20"
+                padding-top="10"
                 padding-bottom="0"
                 padding-left="0"
                 padding-right="0"
@@ -20,7 +20,7 @@
       <mj-section padding-bottom="0" background-color="#fcfcfc">
         <mj-column width="100%">
           <mj-text align="center" font-size="20" color="grey" font-family="Helvetica Neue" font-weight="200">
-          Here is what you've missed
+          Here is somethig new you may have missed
             </mj-text>
             <mj-divider
                 horizontal-spacing="0"
@@ -46,6 +46,27 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
             </mj-text>
         </mj-column>
+      </mj-section>
+      <!-- Demo Section -->
+      <mj-section padding-bottom="0" background-color="#f3f3f3">
+        <mj-column>
+          <mj-text font-size="20" color="rgb(165, 176, 184)">
+              Check it out!
+            </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="0" background-color="#f3f3f3">
+        <mj-column width="100%">
+          <mj-image src="https://raw.githubusercontent.com/afewremarks/yagna/master/assets/demo.gif"/>
+        </mj-column>
+      </mj-section>
+      <!-- Sample Button Area-->
+      <mj-section background-color="#fcfcfc" padding-top="20px">
+        <mj-column>
+                <mj-button font-family="Helvetica" background-color="#4D487C" color="white">
+                        Login Now
+                </mj-button>
+          </mj-column>
       </mj-section>
     </mj-container>
   </mj-body>
