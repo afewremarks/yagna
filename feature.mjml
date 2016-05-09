@@ -67,6 +67,21 @@
                         Login Now
                 </mj-button>
           </mj-column>
+      </mj-section padding-bottom="20" background-color="#4D487C">
+      <!--Social-->
+      
+      <!-- Footer -->
+      <mj-section padding-bottom="0" background-color="#4D487C">
+        <mj-column width="50%">
+          <mj-text align="center" font-size="10" color="white" font-family="Helvetica Neue" font-weight="200">
+            [Unsubscribe] |           
+          </mj-tetxt>
+        </mj-column>
+        <mj-column width="50%">
+          <mj-text  font-size="10" color="white" font-family="Helvetica Neue" font-weight="200">
+             [Unsubscribe_Preferences]
+          </mj-text>
+        </mj-column>
       </mj-section>
     </mj-container>
   </mj-body>
